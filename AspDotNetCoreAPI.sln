@@ -5,6 +5,12 @@ VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspDotNetCoreAPI", "AspDotNetCoreAPI\AspDotNetCoreAPI.csproj", "{0B5ECD9B-728B-423D-BFA8-115CA39A7700}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Document", "Document", "{9FD9AA25-53A6-4B17-8533-EAEA58FE36F6}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		SampleDb.sql = SampleDb.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
